@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Specific Page Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: burlywood;
+    border-radius: 8px;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+h2 {
+    color: #333;
+    background-color: crimson;
+}
+
+/* Add a simple hover effect to the links */
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f39c12;
+}
+h1{
+    background-color: aquamarine;
+    color: black;
+}
